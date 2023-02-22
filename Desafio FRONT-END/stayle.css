@@ -1,0 +1,51 @@
+body {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+#pai {
+    background: #bdccdb;
+    width: 50%;
+    height: 450px;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.filho {
+    width: 210px;
+    position: absolute;
+    height: 320px;
+    background-color: white;
+    margin-top: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 210px;
+
+}
+
+p {
+    position: absolute;
+    font-size: 11px;
+    margin-top: 260px;
+    color: #8493a1;
+    text-align: center;
+}
